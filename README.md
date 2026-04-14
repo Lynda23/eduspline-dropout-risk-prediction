@@ -1,7 +1,7 @@
 # eduspline-dropout-risk-prediction
 AI-powered student dropout risk prediction system
 ## Overview
-Edupsline is an AI-driven system designed to predict student dropout risk using academic and behavioural data. The aim is to identify at-risk students early and support timely intervention.
+Edupsline is a machine learning-based system designed to predict student dropout risk using academic and behavioural data. The aim is to identify at-risk students early and support timely intervention.
 
 ## Problem Statement
 Student dropout is a significant challenge in educational institutions. Many students disengage due to factors that are not identified early. This project applies data science techniques to predict students at risk of dropping out, enabling proactive decision-making.
@@ -18,17 +18,19 @@ Student dropout is a significant challenge in educational institutions. Many stu
 
 ## Methodology
 - Data cleaning and preprocessing  
-- Feature selection  
-- Model training and evaluation  
-- Prediction of dropout risk  
+- A Random Forest Classifier was trained on the dataset to predict student dropout risk. 
+- Acuuracy: 86% 
+- Evaluation metrics: Precision, Recall, F1-score
+- Model performance indicates strong capability in identifying at- risk students
 
 ## Results
-The model is capable of identifying students at risk of dropping out based on input features, providing a foundation for data-driven intervention strategies.
+The model successfully predicts students at risk of dropping out, providing a practical foundation for early intervention and improved student retention strategies.
 
 ## Project Status
-Model development completed. Frontend interface currently in progress.
+Model development completed.
+Frontend interface currently in progress.
 
 ## Future Improvements
-- Improve model accuracy using advanced algorithms  
+- Improve model accuracy using advanced algorithms (e.g., XGBoost0
 - Deploy the model as a web application  
 - Integrate real-time data for continuous prediction
